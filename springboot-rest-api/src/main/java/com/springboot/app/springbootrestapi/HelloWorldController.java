@@ -17,12 +17,6 @@ public class HelloWorldController {
         return "Hello World!";
     }
 
-    public List<Student> getStudents(){
-        List<Student> students = new ArrayList<>();
-        students.add(new Student("Akshay", "Choudhary") );
-        students.add(new Student("Tom", "Cruise") );
-        students.add(new Student("Andy", "fuller") );
-        students.add(new Student("John", "Smith") );
-        return students;
-    }
+
+
 }
